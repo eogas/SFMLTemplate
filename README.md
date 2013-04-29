@@ -19,4 +19,4 @@ Other Info?
 ====
 
 This project is configured to link the project dynamically, so it includes a post-build event that copies the .dlls from
-the specified `$(SFMLDir)`.
+the specified `$(SFMLDir)` into the output directory.
