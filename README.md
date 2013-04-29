@@ -13,3 +13,10 @@ Why is SFMLTemplate?
 I figured this would be helpful for people like me who start a lot of projects that go nowhere.  People who frequently
 start projects using the same stack may be annoyed at the overhead of configuring a working environment all the time,
 so this project aims to serve as an easy way to get up and running without that overhead.
+
+
+Other Info?
+====
+
+This project is configured to link the project dynamically, so it includes a post-build event that copies the .dlls from
+the specified `$(SFMLDir)`.
